@@ -1,0 +1,34 @@
+{
+  "name": "openrct2-starter",
+  "version": "1.0.0",
+  "description": "Basic starter template for openRCT2 plugins",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix",
+    "prettier": "npx prettier . --check",
+    "prettier:fix": "npx prettier . --write",
+    "build": "rollup --config",
+    "watch": "rollup --config --watch",
+    "download:types": "node downloadTypes.js",
+    "postinstall": "npm run download:types"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.11.28",
+    "@typescript-eslint/eslint-plugin": "^7.3.0",
+    "@typescript-eslint/parser": "^7.3.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.2.5",
+    "rollup": "^4.13.0",
+    "rollup-plugin-inject-process-env": "^1.3.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
+  }
+}
