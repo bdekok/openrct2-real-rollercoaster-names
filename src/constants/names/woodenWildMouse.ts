@@ -1,0 +1,20 @@
+// RIP Wild mouse at pleasure beach.
+export default [
+  'Alpine Racer',
+  'Animal Coaster',
+  'Crazy Car Coaster',
+  "Devil's Chute",
+  "Devil's Coach",
+  "King Solomon's Mines",
+  'Mad Mouse',
+  'New Wilder Wild Mouse',
+  'Original Wild Mouse',
+  'Pirun Kelkka',
+  'Runaway Mine Train',
+  'Scamper',
+  'Souris folle',
+  'Super Wild Maus',
+  'Wilde Maus',
+  'Wild Maus',
+  'Wild Mouse',
+] as const;
