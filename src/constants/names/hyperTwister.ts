@@ -1,4 +1,4 @@
-// B&M Hyper
+// B&M Hyper & Giovanola Hyper
 export default [
   "Apollo's Chariot",
   'Behemoth',
@@ -15,5 +15,6 @@ export default [
   'Raging Bull',
   'Shambhala',
   'Silver Star',
+  'Titan',
   'Thunder Striker',
 ];

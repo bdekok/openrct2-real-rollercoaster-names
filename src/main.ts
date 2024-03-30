@@ -84,7 +84,9 @@ const main = (): void => {
   context.subscribe('action.execute', (event) => {
     switch (event.action) {
       case 'ridecreate': {
-        setRandomRideName(event.result);
+        context.setTimeout(() => {
+          setRandomRideName(event.result);
+        }, 50);
         break;
       }
       default:

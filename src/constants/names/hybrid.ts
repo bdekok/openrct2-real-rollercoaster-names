@@ -1,0 +1,23 @@
+// RMC Hybrids
+export default [
+  'ArieForce One',
+  'Goliath',
+  'Hakugei',
+  'Iron Gwazi',
+  'Iron Rattler',
+  'Joker',
+  'Lightning Rod',
+  'Medusa Steel Coaster',
+  'New Texas Giant',
+  'Outlaw Run',
+  'Steel Vengeance',
+  'Storm Chaser',
+  'Twisted Colossus',
+  'Twisted Cyclone',
+  'Twisted Timbers',
+  'Untamed',
+  'Wicked Cyclone',
+  "Wildcat's Revenge",
+  'Wildfire',
+  'Zadra',
+];

@@ -31,6 +31,8 @@ import poweredMineCoasterNames from './names/poweredMineRide';
 import hyperTwisterCoasterNames from './names/hyperTwister';
 import hyperCoasterNames from './names/hyper';
 import miniSuspendedCoasterNames from './names/miniSuspended';
+import hybridCoasterNames from './names/hybrid';
+import singleRailCoasterNames from './names/singleRail';
 
 type RollercoasterNames = { [key in RideType]?: Readonly<string[]> };
 
@@ -59,6 +61,7 @@ export const rollercoasterNames: RollercoasterNames = {
   [RideType.RIDE_TYPE_LAY_DOWN_ROLLER_COASTER_ALT]: layDownCoasterNames,
   [RideType.RIDE_TYPE_LOOPING_ROLLER_COASTER]: loopingCoasterNames,
   [RideType.RIDE_TYPE_MINE_TRAIN_COASTER]: mineTrainCoasterNames,
+  [RideType.RIDE_TYPE_HYBRID_COASTER]: hybridCoasterNames,
   [RideType.RIDE_TYPE_MULTI_DIMENSION_ROLLER_COASTER]:
     fourthDimensionCoasterNames,
   [RideType.RIDE_TYPE_MULTI_DIMENSION_ROLLER_COASTER_ALT]:
@@ -68,6 +71,7 @@ export const rollercoasterNames: RollercoasterNames = {
   [RideType.RIDE_TYPE_STAND_UP_ROLLER_COASTER]: standupRollercoasterNames,
   [RideType.RIDE_TYPE_STEEL_WILD_MOUSE]: steelWildMouseCoasterNames,
   [RideType.RIDE_TYPE_MINE_RIDE]: poweredMineCoasterNames,
+  [RideType.RIDE_TYPE_SINGLE_RAIL_ROLLER_COASTER]: singleRailCoasterNames,
   [RideType.RIDE_TYPE_STEEPLECHASE]: steepleChaseCoasterNames,
   [RideType.RIDE_TYPE_SUSPENDED_SWINGING_COASTER]: suspendedSwiningCoasterNames,
   [RideType.RIDE_TYPE_TWISTER_ROLLER_COASTER]: twisterCoasterNames,
