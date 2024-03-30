@@ -1,5 +1,5 @@
 {
-  "name": "openrct2-starter",
+  "name": "openrct2-real-rollercoaster-names",
   "version": "1.0.0",
   "description": "Basic starter template for openRCT2 plugins",
   "main": "index.js",
@@ -14,20 +14,19 @@
     "download:types": "node downloadTypes.js",
     "postinstall": "npm run download:types"
   },
-  "author": "",
+  "author": "Brent de Kok",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-replace": "^5.0.5",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^20.11.28",
     "@typescript-eslint/eslint-plugin": "^7.3.0",
     "@typescript-eslint/parser": "^7.3.0",
-    "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "3.2.5",
     "rollup": "^4.13.0",
-    "rollup-plugin-inject-process-env": "^1.3.1",
     "tslib": "^2.6.2",
     "typescript": "^5.4.2"
   }
